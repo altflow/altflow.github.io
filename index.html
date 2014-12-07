@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in pagenator.posts %}
+  {% for post in paginator.posts %}
     <article class="post">    
       <div class="date">
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a>
