@@ -110,7 +110,7 @@ img {
   max-width: 100%;
 }
 
-.date {
+.date, date a {
   color: $darkGray;
   font-size: 20px;
   font-weight: 100;
@@ -239,7 +239,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: none;
 }
 
 .posts > .post:last-child {
@@ -265,6 +265,11 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+.pagination {
+  font-size: 15px;
+  text-align: center;	
 }
 
 .wrapper-footer {
