@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in pagenator.posts %}
     <article class="post">    
       <div class="date">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ page.date | date: "%B %e, %Y" }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a>
       </div>
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
