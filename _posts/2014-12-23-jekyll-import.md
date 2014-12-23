@@ -10,8 +10,10 @@ jekyll を使って GitHub Pages に blog を移行しようと思い立った�
 いろいろなアカウントを使い分けるのも面倒になってきたので、メモ的なものや
 日記的なもの (これは最近 Nisshi というサービスに書いていた) を全部ここにまとめようと思う。
 
-Jekyll への移行に伴って、[jekyll-import](http://import.jekyllrb.com/docs/tumblr/) を使って
-Tumblr の post を import する試み。まずは jekyll-import のインストールから。
+そこでまずは Jekyll への移行に伴って、[jekyll-import](http://import.jekyllrb.com/docs/tumblr/) を使って
+Tumblr の post を import した手順を書いておく。
+
+まずは jekyll-import のインストールから。
 
 ```sh
 $ sudo gem install jekyll-import
