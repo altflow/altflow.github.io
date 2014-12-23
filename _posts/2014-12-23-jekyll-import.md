@@ -3,6 +3,13 @@ layout: post
 title: "import tumblr posts with jekyll-import #1"
 ---
 
+自分用のメモなども兼ねて Tumblr で blog を書いていたが、もっとシンプルにしたいとか
+GitHub にアカウントがあるのにしばらく使っていないのでもったいない、などの理由で
+jekyll を使って GitHub Pages に blog を移行しようと思い立った。
+
+いろいろなアカウントを使い分けるのも面倒になってきたので、メモ的なものや
+日記的なもの (これは最近 Nisshi というサービスに書いていた) を全部ここにまとめようと思う。
+
 Jekyll への移行に伴って、[jekyll-import](http://import.jekyllrb.com/docs/tumblr/) を使って
 Tumblr の post を import する試み。まずは jekyll-import のインストールから。
 
