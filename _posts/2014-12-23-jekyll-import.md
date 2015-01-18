@@ -73,4 +73,4 @@ when "video"
 
 とりあえず、これで全部、またはほとんどの post の .md ファイルができた。
 
-(続く)
+([続く](http://altflow.github.io/jekyll-import-2/))
