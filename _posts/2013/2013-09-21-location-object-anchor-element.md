@@ -12,8 +12,8 @@ testem とか使ってテストをする場合、location.href に値を入れ�
 例: URL 文字列からホスト名を取得
 
 ```javascript
-var mylocation = document.createElement(''a'');
-mylocation.href = ''http://example.com/path/to/file'';
+var mylocation = document.createElement('a');
+mylocation.href = 'http://example.com/path/to/file';
 
 var hostname = mylocation.hostname;
 ```
@@ -22,19 +22,19 @@ var hostname = mylocation.hostname;
 
 ```javascript
 // Test
-describe(''callMyFuncTest'', function(){
+describe('callMyFuncTest', function(){
     beforeEach(function(){
-        myNS.location = document.createElement(''a'');
+        myNS.location = document.createElement('a');
     });
 
     afterEach(function(){
         myNS.location = window.location;
     });
 
-    it(''should return url without query string'', function(){
-        myNS.location.href = ''http://example.com/path?query=string'';
+    it('should return url without query string', function(){
+        myNS.location.href = 'http://example.com/path?query=string';
 
-        expect(myNS.removeQueryStr()).toBe(''http://example.com/path'');
+        expect(myNS.removeQueryStr()).toBe('http://example.com/path');
     });
 });
 
@@ -46,7 +46,7 @@ var myNS = {
 myNS.removeQueryStr = function(){
     var l = myNS.location;
 
-    return l.protocol+''://''+l.hostname+l.pathname;
+    return l.protocol+'://'+l.hostname+l.pathname;
 }
 ```
 
