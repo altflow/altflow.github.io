@@ -2,7 +2,7 @@
 layout: post
 title: Mac の Chrome で https のページ上で bookmarklet を使う
 date: '2013-04-13T23:44:47+09:00'
-tags: []
+tags: [mac]
 ---
 
 Chrome ではセキュリティの関係で https のページでは bookmarklet が動かない。

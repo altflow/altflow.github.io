@@ -2,7 +2,7 @@
 layout: post
 title:  Government Digital Service – Design Principles
 date: '2013-07-14T13:35:17+09:00'
-tags: []
+tags: [quote]
 ---
 
 > [Government Digital Service – Design Principles](https://www.gov.uk/designprinciples)
