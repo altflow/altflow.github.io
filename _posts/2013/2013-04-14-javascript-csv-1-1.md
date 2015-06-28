@@ -7,7 +7,7 @@ tags: [javascript]
 
 例えば以下のような CSV から
 
-```csv
+```
 title,date,text
 Convert CSV into some files,2013-04-12,How to convert each record in CSV to...
 Sample script,2013-04-11,Here is the sample script that you want...
