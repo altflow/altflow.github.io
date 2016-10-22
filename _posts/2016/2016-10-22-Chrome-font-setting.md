@@ -17,3 +17,7 @@ Google の検索結果や Wikipedia で確認してみたら、なんかメイ�
 なんだこの設定。
 
 とりあえず、Light や Medium を使えば指定通りになるので、今は Light を設定している。
+
+追記:
+
+その後、少し検索したら、"[DirectWrite 有効な Chrome で 源ノ角ゴシック (Source Han Sans) とかウェイト名付フォント名を使う方法デース](http://d.hatena.ne.jp/palm84/20141019/1413674301)" に解決策が書いてあったのでやってみた。そこにあるように、Chrome の Preferences ファイルを直接編集して、weight の Regular を削除すると、設定画面上は MS P ゴシックになるが、指定したフォントが反映した。
